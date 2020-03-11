@@ -6,9 +6,9 @@ public interface IBaseService<T> {
     int insert(T record);
 
     int insertSelective(T record);
-
-    T selectByPrimaryKey(Long cid);
     
+    T selectByPrimaryKey(Long cid);
+
     int updateByPrimaryKeySelective(T record);
 
     int updateByPrimaryKey(T record);

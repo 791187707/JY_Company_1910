@@ -8,7 +8,7 @@ public interface IBaseService<T> {
     int insertSelective(T record);
 
     T selectByPrimaryKey(Long cid);
-
+    
     int updateByPrimaryKeySelective(T record);
 
     int updateByPrimaryKey(T record);

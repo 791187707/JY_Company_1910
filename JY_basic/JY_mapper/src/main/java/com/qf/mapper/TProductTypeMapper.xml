@@ -128,4 +128,7 @@
       update_user = #{updateUser,jdbcType=BIGINT}
     where cid = #{cid,jdbcType=BIGINT}
   </update>
+    <select id="getlist" resultMap="BaseResultMap">
+      select * from t_product_type
+    </select>
 </mapper>

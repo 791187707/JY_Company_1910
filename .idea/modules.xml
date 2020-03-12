@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/JY_basic/JY_common/JY_common.iml" filepath="$PROJECT_DIR$/JY_basic/JY_common/JY_common.iml" />
       <module fileurl="file://$PROJECT_DIR$/JY_basic/JY_entity/JY_entity.iml" filepath="$PROJECT_DIR$/JY_basic/JY_entity/JY_entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/JY_basic/JY_mapper/JY_mapper.iml" filepath="$PROJECT_DIR$/JY_basic/JY_mapper/JY_mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JY_api/JY_product_type_api/JY_product_type_api.iml" filepath="$PROJECT_DIR$/JY_api/JY_product_type_api/JY_product_type_api.iml" />
       <module fileurl="file://$PROJECT_DIR$/JY_service/JY_service.iml" filepath="$PROJECT_DIR$/JY_service/JY_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/JY_web/JY_web.iml" filepath="$PROJECT_DIR$/JY_web/JY_web.iml" />
     </modules>

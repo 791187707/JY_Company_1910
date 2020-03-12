@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08be3655-9241-4715-a36d-0c7ab80edde5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/JY_basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JY_basic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JY_web/web_index/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JY_web/web_index/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JY_service/service_index_service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JY_api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JY_api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java/com/qf/mapper/TProductTypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java/com/qf/mapper/TProductTypeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java/com/qf/mapper/TProductTypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java/com/qf/mapper/TProductTypeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JY_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JY_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JY_service/service_index_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JY_service/service_index_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JY_service/service_index_service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JY_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JY_web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JY_web/web_index/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JY_web/web_index/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/JY_api/target/" />
@@ -14,6 +21,7 @@
     <ignored path="$PROJECT_DIR$/JY_basic/JY_mapper/target/" />
     <ignored path="$PROJECT_DIR$/JY_basic/JY_entity/target/" />
     <ignored path="$PROJECT_DIR$/JY_basic/JY_common/target/" />
+    <ignored path="$PROJECT_DIR$/JY_api/JY_product_type_api/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,15 +59,68 @@
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JY_api/JY_product_type_api/src/main/java/com/qf/product/type/api/IProductTypeService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java/com/qf/mapper/TProductTypeMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java/com/qf/mapper/TProductTypeMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4864">
+              <caret line="128" column="38" selection-start-line="128" selection-start-column="38" selection-end-line="128" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JY_web/web_index/src/main/java/com/qf/web_index/WebIndexApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JY_service/service_index_service/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JY_web/web_index/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
+            <state relative-caret-position="-5092">
               <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding>
                 <element signature="n#style#0;n#i#1;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -81,109 +142,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JY_basic/JY_common/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JY_basic/JY_common/src/main/java/com/qf/base/IBaseDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JY_basic/JY_mapper/pom.xml">
+        <entry file="file://$PROJECT_DIR$/JY_web/web_index/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="532">
-              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+              <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java/com/qf/mapper/TProductDescMapper.java">
+        <entry file="file://$PROJECT_DIR$/JY_web/web_index/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java/com/qf/mapper/TProductMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java/com/qf/mapper/TProductTypeMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java/com/qf/mapper/TUserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JY_basic/JY_common/src/main/java/com/qf/base/IBaseService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JY_basic/JY_common/src/main/java/com/qf/base/impl/BaseServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#535#536#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="190">
+              <caret line="5" selection-start-line="4" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -214,10 +185,19 @@
         <option value="$PROJECT_DIR$/JY_basic/JY_mapper/pom.xml" />
         <option value="$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java/com/qf/mapper/TProductDescMapper.java" />
         <option value="$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java/com/qf/mapper/TProductMapper.java" />
-        <option value="$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java/com/qf/mapper/TProductTypeMapper.java" />
         <option value="$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java/com/qf/mapper/TUserMapper.java" />
-        <option value="$PROJECT_DIR$/JY_basic/JY_common/src/main/java/com/qf/base/IBaseService.java" />
         <option value="$PROJECT_DIR$/JY_basic/JY_common/src/main/java/com/qf/base/impl/BaseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/JY_basic/JY_common/src/main/java/com/qf/base/IBaseService.java" />
+        <option value="$PROJECT_DIR$/JY_web/web_index/src/main/java/com/qf/web_index/WebIndexApplication.java" />
+        <option value="$PROJECT_DIR$/JY_api/JY_product_type_api/pom.xml" />
+        <option value="$PROJECT_DIR$/JY_api/JY_product_type_api/src/main/java/com/qf/product/type/api/IProductTypeService.java" />
+        <option value="$PROJECT_DIR$/JY_service/service_index_service/pom.xml" />
+        <option value="$PROJECT_DIR$/JY_service/service_index_service/src/main/java/com/qf/service_index_service/impl/ProductTypeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java/com/qf/mapper/TProductTypeMapper.java" />
+        <option value="$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java/com/qf/mapper/TProductTypeMapper.xml" />
+        <option value="$PROJECT_DIR$/JY_web/web_index/pom.xml" />
+        <option value="$PROJECT_DIR$/JY_web/web_index/src/main/java/com/qf/web_index/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/JY_service/service_index_service/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -229,11 +209,26 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="JY_service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="JY_service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="961" />
-    <option name="y" value="544" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -241,8 +236,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,115 +246,135 @@
             <path>
               <item name="JY_Company" type="b2602c69:ProjectViewProjectNode" />
               <item name="JY_Company_1910" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JY_Company" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JY_Company_1910" type="462c0819:PsiDirectoryNode" />
               <item name="JY_basic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JY_Company" type="b2602c69:ProjectViewProjectNode" />
               <item name="JY_Company_1910" type="462c0819:PsiDirectoryNode" />
               <item name="JY_basic" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_common" type="462c0819:PsiDirectoryNode" />
+              <item name="JY_mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JY_Company" type="b2602c69:ProjectViewProjectNode" />
               <item name="JY_Company_1910" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_basic" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_common" type="462c0819:PsiDirectoryNode" />
+              <item name="JY_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JY_Company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JY_Company_1910" type="462c0819:PsiDirectoryNode" />
+              <item name="JY_service" type="462c0819:PsiDirectoryNode" />
+              <item name="service_index_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JY_Company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JY_Company_1910" type="462c0819:PsiDirectoryNode" />
+              <item name="JY_service" type="462c0819:PsiDirectoryNode" />
+              <item name="service_index_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JY_Company" type="b2602c69:ProjectViewProjectNode" />
               <item name="JY_Company_1910" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_basic" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JY_Company" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JY_Company_1910" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_basic" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_common" type="462c0819:PsiDirectoryNode" />
+              <item name="JY_service" type="462c0819:PsiDirectoryNode" />
+              <item name="service_index_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JY_Company" type="b2602c69:ProjectViewProjectNode" />
               <item name="JY_Company_1910" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_basic" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_common" type="462c0819:PsiDirectoryNode" />
+              <item name="JY_service" type="462c0819:PsiDirectoryNode" />
+              <item name="service_index_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JY_Company" type="b2602c69:ProjectViewProjectNode" />
               <item name="JY_Company_1910" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_basic" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_common" type="462c0819:PsiDirectoryNode" />
+              <item name="JY_service" type="462c0819:PsiDirectoryNode" />
+              <item name="service_index_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="qf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JY_Company" type="b2602c69:ProjectViewProjectNode" />
               <item name="JY_Company_1910" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_basic" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_common" type="462c0819:PsiDirectoryNode" />
+              <item name="JY_service" type="462c0819:PsiDirectoryNode" />
+              <item name="service_index_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="qf" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JY_Company" type="b2602c69:ProjectViewProjectNode" />
               <item name="JY_Company_1910" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_basic" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_common" type="462c0819:PsiDirectoryNode" />
+              <item name="JY_service" type="462c0819:PsiDirectoryNode" />
+              <item name="service_index_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="qf" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="service_index_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JY_Company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JY_Company_1910" type="462c0819:PsiDirectoryNode" />
+              <item name="JY_service" type="462c0819:PsiDirectoryNode" />
+              <item name="service_index_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="qf" type="462c0819:PsiDirectoryNode" />
+              <item name="service_index_service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JY_Company" type="b2602c69:ProjectViewProjectNode" />
               <item name="JY_Company_1910" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_basic" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="JY_service" type="462c0819:PsiDirectoryNode" />
+              <item name="service_index_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JY_Company" type="b2602c69:ProjectViewProjectNode" />
               <item name="JY_Company_1910" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_basic" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="JY_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JY_Company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JY_Company_1910" type="462c0819:PsiDirectoryNode" />
+              <item name="JY_web" type="462c0819:PsiDirectoryNode" />
+              <item name="web_index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JY_Company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JY_Company_1910" type="462c0819:PsiDirectoryNode" />
+              <item name="JY_web" type="462c0819:PsiDirectoryNode" />
+              <item name="web_index" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JY_Company" type="b2602c69:ProjectViewProjectNode" />
               <item name="JY_Company_1910" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_basic" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="JY_web" type="462c0819:PsiDirectoryNode" />
+              <item name="web_index" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JY_Company" type="b2602c69:ProjectViewProjectNode" />
               <item name="JY_Company_1910" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_basic" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="JY_web" type="462c0819:PsiDirectoryNode" />
+              <item name="web_index" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -369,8 +382,8 @@
             <path>
               <item name="JY_Company" type="b2602c69:ProjectViewProjectNode" />
               <item name="JY_Company_1910" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_basic" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="JY_web" type="462c0819:PsiDirectoryNode" />
+              <item name="web_index" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -379,8 +392,8 @@
             <path>
               <item name="JY_Company" type="b2602c69:ProjectViewProjectNode" />
               <item name="JY_Company_1910" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_basic" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="JY_web" type="462c0819:PsiDirectoryNode" />
+              <item name="web_index" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -390,29 +403,49 @@
             <path>
               <item name="JY_Company" type="b2602c69:ProjectViewProjectNode" />
               <item name="JY_Company_1910" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_basic" type="462c0819:PsiDirectoryNode" />
-              <item name="JY_mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="JY_web" type="462c0819:PsiDirectoryNode" />
+              <item name="web_index" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="qf" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="web_index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JY_Company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JY_Company_1910" type="462c0819:PsiDirectoryNode" />
+              <item name="JY_web" type="462c0819:PsiDirectoryNode" />
+              <item name="web_sso" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JY_Company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JY_Company_1910" type="462c0819:PsiDirectoryNode" />
+              <item name="JY_web" type="462c0819:PsiDirectoryNode" />
+              <item name="web_sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java" />
+    <property name="last_opened_file_path" value="E:/BaiduNetdiskDownload/千峰-NZ-JAVA-1905/11项目/代码/代码/qf-shop" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -435,6 +468,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="WebIndexApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="JY_web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qf.web_index.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.web_index.WebIndexApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.WebIndexApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -446,17 +499,28 @@
       <option name="presentableId" value="Default" />
       <updated>1583756833297</updated>
       <workItem from="1583756863350" duration="1240000" />
-      <workItem from="1583907843424" duration="5415000" />
+      <workItem from="1583907843424" duration="6430000" />
+      <workItem from="1583993628451" duration="1854000" />
+      <workItem from="1583995525391" duration="1586000" />
+      <workItem from="1583997156445" duration="2115000" />
     </task>
+    <task id="LOCAL-00001" summary="updata">
+      <created>1583914496007</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583914496007</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6655000" />
+    <option name="totallyTimeSpent" value="13225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17590618" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18070363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -464,35 +528,44 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Designer" order="7" />
-      <window_info anchor="bottom" id="JRebel Executor" />
+      <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.75479746" visible="true" weight="0.03452244" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32911393" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="JRebel Console" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Console" order="12" sideWeight="0.24520256" side_tool="true" visible="true" weight="0.03452244" />
+      <window_info anchor="bottom" id="JRebel Executor" order="13" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32911393" />
+      <window_info anchor="bottom" id="Java Enterprise" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
       <window_info anchor="right" id="Mybatis datasource" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" order="8" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.1652452" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updata" />
+    <option name="LAST_COMMIT_MESSAGE" value="updata" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -505,20 +578,6 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-120" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JY_web/web_index/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JY_web/web_index/src/main/java/com/qf/web_index/WebIndexApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/292e6ed7-4cdc-4284-a553-f34f130f0b8f/console.sql">
@@ -562,9 +621,184 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JY_basic/JY_common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JY_basic/JY_common/src/main/java/com/qf/base/IBaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JY_basic/JY_mapper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java/com/qf/mapper/TProductDescMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java/com/qf/mapper/TProductMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java/com/qf/mapper/TUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JY_basic/JY_common/src/main/java/com/qf/base/impl/BaseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JY_api/JY_product_type_api/src/main/java/com/qf/product/type/api.java" />
+    <entry file="file://$PROJECT_DIR$/JY_basic/JY_common/src/main/java/com/qf/base/IBaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JY_api/JY_product_type_api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JY_service/service_index_service/src/main/java/com/qf/service_index_service/ServiceIndexServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JY_service/service_index_service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2052">
+          <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java/com/qf/mapper/TProductTypeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java/com/qf/mapper/TProductTypeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4864">
+          <caret line="128" column="38" selection-start-line="128" selection-start-column="38" selection-end-line="128" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JY_web/web_index/src/main/java/com/qf/web_index/WebIndexApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JY_web/web_index/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JY_web/web_index/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="5" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JY_service/service_index_service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JY_service/service_index_service/src/main/java/com/qf/service_index_service/impl/ProductTypeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JY_api/JY_product_type_api/src/main/java/com/qf/product/type/api/IProductTypeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JY_web/web_index/src/main/java/com/qf/web_index/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JY_web/web_index/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="-5092">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#i#1;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -581,96 +815,6 @@
             <element signature="n#style#0;n#i#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#13;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#li#1;n#div#6;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JY_basic/JY_common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java/com/qf/mapper/TProductDescMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java/com/qf/mapper/TProductMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java/com/qf/mapper/TProductTypeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JY_basic/JY_mapper/src/main/java/com/qf/mapper/TUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JY_basic/JY_mapper/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JY_basic/JY_common/src/main/java/com/qf/base/impl/BaseServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JY_basic/JY_common/src/main/java/com/qf/base/IBaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JY_basic/JY_common/src/main/java/com/qf/base/IBaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>

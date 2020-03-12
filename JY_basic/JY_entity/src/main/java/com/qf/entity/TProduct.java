@@ -1,10 +1,11 @@
 package com.qf.entity;
 
+import java.io.Serializable;
 import java.util.Date;
 import lombok.Data;
 
 @Data
-public class TProduct {
+public class TProduct implements Serializable {
     private Integer pid;
 
     private String pname;

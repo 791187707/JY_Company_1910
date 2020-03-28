@@ -6,7 +6,12 @@
 
     <groupId>com.qf</groupId>
     <artifactId>JY_api</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>JY_product_type_api</module>
+        <module>JY_user_api</module>
+    </modules>
 
 
 </project>

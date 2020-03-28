@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="JY_web" />
+        <module name="JY_entity" />
+        <module name="JY_product_type_api" />
+        <module name="JY_service" />
+        <module name="JY_user_api" />
+        <module name="JY_mapper" />
+        <module name="JY_common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="JY_api" target="1.5" />
+      <module name="JY_basic" target="1.5" />
+      <module name="JY_common" target="1.5" />
+      <module name="JY_Company" target="1.5" />
+      <module name="JY_entity" target="1.5" />
+      <module name="JY_mapper" target="1.5" />
+      <module name="JY_product_type_api" target="1.5" />
+      <module name="JY_service" target="1.5" />
+      <module name="JY_user_api" target="1.5" />
+      <module name="JY_web" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
